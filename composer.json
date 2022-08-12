@@ -1,0 +1,22 @@
+{
+    "name": "booosta/odt2pdf",
+    "description": "Create PDF from ODT files in Booosta",
+    "license": "LGPL-3.0-only",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "booosta\\odt2pdf\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Peter Buzanits",
+            "email": "peter@icb.at"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0.0",
+        "booosta/base": "dev-master"
+    }
+}
